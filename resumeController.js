@@ -4,8 +4,9 @@ app.controller("resumeCtrl", function($scope,$http)
 	{
 		
 		$http.get("resume.txt").success(function(response){
+			$scope.Jsoned = angular.fromJson(response.data)
 			
 			$scope.resumeVar = response.data;
 		});
-	}]
+	}
 );
