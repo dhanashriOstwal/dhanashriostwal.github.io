@@ -7,11 +7,13 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			
 			// $scope.resumeVar = response.data;
+			var ans = ''
 			var lines = response.data.split('\n');
 			for(var line = 0; line < lines.length; line++)
 			{
-				$scope.resumeVar = lines[line]; 
+				ans = ans + lines[line]; 
 			}
+			$scope.resumeVar = ans
 		});
 	}
 );
