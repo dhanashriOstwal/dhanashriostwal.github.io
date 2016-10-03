@@ -13,7 +13,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			for(var line = 0; line < lines.length; line++)
 			{
-				$scope.name = line[0];
+				$scope.name = lines[0];
 				$scope.email = line[1];
 				$scope.phone = line[2];
 				$scope.address = line[3]
