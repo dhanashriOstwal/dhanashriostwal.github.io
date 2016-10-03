@@ -12,7 +12,8 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.line = lines
 			for(var line = 0; line < lines.length; line++)
 			{
-				ans = ans + lines[line] ;
+				ans = ans + lines[line];
+				ans = ans + '<br />';
 				
 			}
 			$scope.resumeVar = ans
