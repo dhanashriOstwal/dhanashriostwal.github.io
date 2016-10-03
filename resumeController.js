@@ -1,12 +1,11 @@
 var app = angular.module("personalWebsite",[])
 
-app.controller("resumeCtrl",['$scope', '$http', function($scope,$http)
+app.controller("resumeCtrl", function($scope,$http)
 	{
-		$scope.fname = "Dhanashri";
-		alert("Inside controller");
-		$http.get("resume.txt").success(function(data){
-			alert("Inside get");
-			$scope.resumeVar = JSON.parse(data);
+		
+		$http.get("resume.txt").success(function(response){
+			
+			$scope.resumeVar = response.data;
 		});
 	}]
 );
