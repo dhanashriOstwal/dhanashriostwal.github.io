@@ -29,7 +29,8 @@ app.controller("resumeCtrl", function($scope,$http)
 					}
 					else{
 						if(value != ""){
-							json_data[key] = json_data[key] + value ";"
+							value = value + "-"
+							json_data[key] = json_data[key] + value
 							//i = i + 1;
 						}
 						
