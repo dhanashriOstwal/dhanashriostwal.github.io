@@ -10,7 +10,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			var ans = {}
 			var lines = response.data.split('\n');
 			$scope.line = lines
-			alert(lines[3])
+			alert(lines[5])
 			for(var line = 0; line < lines.length; line++)
 			{
 				
