@@ -12,7 +12,10 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.line = lines.split("\n")
 			
 			
-			console.log($scope.line)
+			//console.log($scope.line)
+			angular.forEach($scope.line, function(value, index) {
+				console.log(index + ': ' + value);
+			});
 ////////////////////////////////////
 			$scope.resumeVar = ans
 		});
