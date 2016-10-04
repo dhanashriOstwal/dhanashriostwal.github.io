@@ -26,7 +26,10 @@ app.controller("resumeCtrl", function($scope,$http)
 						key = value;
 					}
 					else{
-						json_data[key] = value
+						if(!isEmpty(value)){
+							json_data[key] = value
+						}
+						
 					}
 				} 
 				//console.log(index + ': ' + value);
