@@ -17,7 +17,7 @@ app.controller("resumeCtrl", function($scope,$http)
 				while(lines[i]!=' ')
 					alert(lines[i])
 			} */
-			for(var line = 0; line < lines.length; line++)
+			/* for(var line = 0; line < lines.length; line++)
 			{
 				
 				/* while (lines[line] != '\n')
@@ -25,12 +25,12 @@ app.controller("resumeCtrl", function($scope,$http)
 					$scope.heading = 
 					ans = ans + lines[line];
 					ans = ans + '\n';  
-				} */
+				} 
 				
 				
 				
 				
-			}
+			} */
 			$scope.resumeVar = ans
 		});
 	}
