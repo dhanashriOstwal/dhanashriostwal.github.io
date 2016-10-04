@@ -11,9 +11,11 @@ app.controller("resumeCtrl", function($scope,$http)
 			var lines = response.data.split('\n');
 			$scope.line = lines
 			alert(lines[5])
+			
 			for(var i = 1 ; i < lines.length;i++)
 			{
-				alert(lines[i])
+				while(lines[i]!='\n')
+					alert(lines[i])
 			}
 			for(var line = 0; line < lines.length; line++)
 			{
