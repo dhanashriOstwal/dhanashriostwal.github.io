@@ -12,7 +12,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			var flag = 0;
 			var key = "";
 			var found = "";
-			var i = 0;
+			//var i = 0;
 			$scope.line = lines.split("\n")
 			//console.log($scope.line)
 			
@@ -25,12 +25,12 @@ app.controller("resumeCtrl", function($scope,$http)
 					found = headings.indexOf(value);
 					if(found >= 0){
 						key = value;
-						i = 0;
+						//i = 0;
 					}
 					else{
 						if(value != ""){
-							json_data[key][i] = value
-							i = i + 1;
+							json_data[key] = json_data[key] + value ";"
+							//i = i + 1;
 						}
 						
 					}
