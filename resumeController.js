@@ -22,7 +22,10 @@ app.controller("resumeCtrl", function($scope,$http)
  				else{
 					var found = headings.indexOf(value);
 					if(found >= 0){
-						json_data[value] = "some"
+						key = value;
+					}
+					else{
+						json_data[key] = value
 					}
 				} 
 				//console.log(index + ': ' + value);
