@@ -9,29 +9,44 @@ app.controller("resumeCtrl", function($scope,$http)
 			// $scope.resumeVar = response.data;
 			var ans = {}
 			var lines = response.data;
-			$scope.line = lines.split("\\n\\n")
-			console.log($scope.line)
+			//$scope.line = lines.split("\\n\\n")
 			
 			
-			/* for(var i = 1 ; i < lines.length;i++)
+			BufferedReader in
+			   = new BufferedReader(new FileReader("foo.txt"));
+
+			List<String> allStrings = new ArrayList<String>();
+			String str ="";
+			while(true)
 			{
-				while(lines[i]!=' ')
-					alert(lines[i])
-			} */
-			/* for(var line = 0; line < lines.length; line++)
-			{
-				
-				/* while (lines[line] != '\n')
+				String tmp = in.readLine();
+				if(tmp.isEmpty())
 				{
-					$scope.heading = 
-					ans = ans + lines[line];
-					ans = ans + '\n';  
-				} 
-				
-				
-				
-				
-			} */
+				  if(!str.isEmpty())
+				  {
+					  allStrings.add(str);
+				  }
+				  str= "";
+				}
+				else if(tmp==null)
+				{
+					break;
+				}
+				else
+				{
+				   if(str.isEmpty())
+				   {
+					   str = tmp;
+				   }
+				   else
+				   { 
+					   str += "\\n" + tmp;
+				   }
+				}
+			}
+			$scope.line = allStrings;
+			console.log($scope.line)
+////////////////////////////////////
 			$scope.resumeVar = ans
 		});
 	}
