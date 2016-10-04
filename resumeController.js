@@ -51,6 +51,9 @@ app.controller("resumeCtrl", function($scope,$http)
 ////////////////////////////////////
 			$scope.resumeVar = angular.fromJson(json_data);
 			$scope.name = $scope.resumeVar.name;
+			$scope.email = $scope.resumeVar.email;
+			$scope.phone = $scope.resumeVar.phone;
+			$scope.address = $scope.resumeVar.address;
 		});
 	}
 );
