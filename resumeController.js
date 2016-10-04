@@ -12,7 +12,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			//$scope.line = lines.split("\\n\\n")
 			
 			
-			BufferedReader in = new BufferedReader(new FileReader("foo.txt"));
+			BufferedReader in = new BufferedReader(new FileReader("resume1.txt"));
 
 			List<String> allStrings = new ArrayList<String>();
 			String str ="";
