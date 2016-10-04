@@ -10,17 +10,16 @@ app.controller("resumeCtrl", function($scope,$http)
 			var ans = {}
 			var lines = response.data.split('\n');
 			$scope.line = lines
-			alert("Name:",lines[0])
+			
 			for(var line = 0; line < lines.length; line++)
 			{
-				alert(lines[line])
-				$scope.name = lines[0];
-				$scope.email = line[1];
-				$scope.phone = line[2];
-				$scope.address = line[3]
-					
-				/* ans = ans + lines[line];
-				ans = ans + '\n';  */
+				alert(line)
+				/* while (lines[line] != '\n')
+				{
+					$scope.heading = 
+					ans = ans + lines[line];
+					ans = ans + '\n';  
+				} */
 				
 				
 				
