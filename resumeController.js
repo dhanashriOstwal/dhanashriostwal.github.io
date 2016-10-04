@@ -9,7 +9,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			// $scope.resumeVar = response.data;
 			var ans = {}
 			var lines = response.data;
-			$scope.line = lines.split(/\n//\n/)
+			$scope.line = lines.split("\\n\\n")
 			console.log($scope.line)
 			
 			
