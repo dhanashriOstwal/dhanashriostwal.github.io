@@ -20,7 +20,7 @@ app.controller("resumeCtrl", function($scope,$http)
 					json_data[index] = value;
 				}
  				else{
-					var found = $.inArray(value, headings);
+					var found = headings.indexOf(value);
 					if(found >= 0){
 						json_data[value] = "some"
 					}
