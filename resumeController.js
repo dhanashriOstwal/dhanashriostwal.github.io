@@ -20,7 +20,10 @@ app.controller("resumeCtrl", function($scope,$http)
 					json_data[index] = value;
 				}
  				else{
-					console.log(index)
+					
+					if(value.length == 0){
+						console.log(index)
+					}
 				} 
 				//console.log(index + ': ' + value);
 				
