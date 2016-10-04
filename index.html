@@ -22,7 +22,7 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>DO</h1>
+        		<h1>{{ resumeVar.0 }}</h1>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
@@ -43,7 +43,7 @@
 		
 
 			
-			<pre>{{resumeVar}}</pre>
+			<pre>{{ resumeVar | json }}</pre>
 
 		</div>
 	</body>
