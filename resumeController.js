@@ -24,7 +24,7 @@ app.controller("resumeCtrl", function($scope,$http)
 					if(value == ""){
 						flag = 1;
 						key = value;
-						continue;
+						//continue;
 					}
 					if(flag == 1){
 						
