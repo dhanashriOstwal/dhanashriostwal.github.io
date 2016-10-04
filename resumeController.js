@@ -33,6 +33,7 @@ app.controller("resumeCtrl", function($scope,$http)
 					found = headings.indexOf(value);
 					if(found >= 0){
 						key = value;
+						json_data[key] = "";
 						//i = 0;
 					}
 					else{
