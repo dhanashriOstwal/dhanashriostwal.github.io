@@ -22,8 +22,10 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>resumeVar.0</h1>
-				
+        		<h1>{{resumeVar.0}}</h1>
+				  <li ng-repeat="x in resumeVar">
+					{{ x.0 }}
+				  </li>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
