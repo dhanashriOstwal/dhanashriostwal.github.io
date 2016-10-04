@@ -21,7 +21,7 @@ app.controller("resumeCtrl", function($scope,$http)
 				}
  				else{
 					
-					if(value.length == 0){
+					if(value === ""){
 						console.log(index)
 					}
 				} 
