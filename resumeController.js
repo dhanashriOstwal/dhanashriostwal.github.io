@@ -13,7 +13,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			for(var line = 0; line < lines.length; line++)
 			{
-				alert(line[0])
+				alert(lines[0])
 				/* while (lines[line] != '\n')
 				{
 					$scope.heading = 
