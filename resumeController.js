@@ -10,7 +10,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			var ans = {}
 			var lines = response.data;
 			$scope.line = lines
-			console.log(lines[0])
+			console.log(new JSONObject($scope.line))
 			
 			/* for(var i = 1 ; i < lines.length;i++)
 			{
