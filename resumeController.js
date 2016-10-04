@@ -12,11 +12,11 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.line = lines
 			alert(lines[5])
 			
-			for(var i = 1 ; i < lines.length;i++)
+			/* for(var i = 1 ; i < lines.length;i++)
 			{
 				while(lines[i]!=' ')
 					alert(lines[i])
-			}
+			} */
 			for(var line = 0; line < lines.length; line++)
 			{
 				
