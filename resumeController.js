@@ -11,8 +11,9 @@ app.controller("resumeCtrl", function($scope,$http)
 			var lines = response.data;
 			var flag = 0;
 			var key = "";
+			var found = "";
 			$scope.line = lines.split("\n")
-			console.log($scope.line)
+			//console.log($scope.line)
 			
 			//console.log($scope.line)
 			angular.forEach($scope.line, function(value, index) {
@@ -20,7 +21,7 @@ app.controller("resumeCtrl", function($scope,$http)
 					json_data[index] = value;
 				}
  				else{
-					var found = headings.indexOf(value);
+					found = headings.indexOf(value);
 					if(found >= 0){
 						key = value;
 					}
