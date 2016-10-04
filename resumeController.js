@@ -42,7 +42,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			console.log(JSON.stringify(json_data))
 ////////////////////////////////////
 			$scope.resumeVar = angular.fromJson(json_data);
-			$scope.name = $scope.resumeVar.Education;
+			$scope.name = $scope.resumeVar.0;
 		});
 	}
 );
