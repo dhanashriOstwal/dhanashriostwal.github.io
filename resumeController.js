@@ -15,7 +15,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			//console.log($scope.line)
 			angular.forEach($scope.line, function(value, index) {
 				if(index <= 4){
-					json_data[index] = value
+					json_data.push(index,value)
 				}
 				//console.log(index + ': ' + value);
 				console.log(json_data)
