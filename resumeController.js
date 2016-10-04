@@ -39,7 +39,7 @@ app.controller("resumeCtrl", function($scope,$http)
 				//console.log(index + ': ' + value);
 				
 			});
-			console.log(json_data)
+			console.log(JSON.stringif(json_data))
 ////////////////////////////////////
 			$scope.resumeVar = json_data
 		});
