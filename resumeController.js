@@ -10,6 +10,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			var json_data = {}
 			var lines = response.data;
 			var flag = 0;
+			var key = "";
 			$scope.line = lines.split("\n")
 			
 			
@@ -19,13 +20,17 @@ app.controller("resumeCtrl", function($scope,$http)
 					json_data.push(index,value)
 				}
 				else{
+					console.log("in")
 					if(value == ""){
 						flag = 1;
+						key = value;
 						continue;
 					}
 					if(flag == 1){
-						var key = value;
+						
 						json_data.push(key,"some")
+						flag = 0;
+						key = "";
 					}
 				}
 				//console.log(index + ': ' + value);
