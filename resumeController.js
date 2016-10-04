@@ -8,9 +8,9 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			// $scope.resumeVar = response.data;
 			var ans = {}
-			var lines = response.data.split('\n');
+			var lines = response.data;
 			$scope.line = lines
-			alert(lines[5])
+			console.log(lines)
 			
 			/* for(var i = 1 ; i < lines.length;i++)
 			{
