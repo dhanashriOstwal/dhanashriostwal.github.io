@@ -19,7 +19,15 @@ app.controller("resumeCtrl", function($scope,$http)
 			//console.log($scope.line)
 			angular.forEach($scope.line, function(value, index) {
 				if(index < 4){
-					json_data[index] = value;
+					if(index === 0)
+						json_data['name'] = value;
+					if(index === 1)
+						json_data['email'] = value;
+					if(index === 2)
+						json_data['phone'] = value;
+					if(index === 3)
+						json_data['address'] = value;
+
 				}
  				else{
 					found = headings.indexOf(value);
@@ -42,7 +50,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			console.log(JSON.stringify(json_data))
 ////////////////////////////////////
 			$scope.resumeVar = angular.fromJson(json_data);
-			$scope.name = $scope.resumeVar.0;
+			$scope.name = $scope.resumeVar.name;
 		});
 	}
 );
