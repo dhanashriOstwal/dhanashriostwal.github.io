@@ -19,7 +19,7 @@ app.controller("resumeCtrl", function($scope,$http)
 				if(index <= 4){
 					json_data.push(index,value)
 				}
-				else{
+/* 				else{
 					console.log("in")
 					if(value == ""){
 						flag = 1;
@@ -32,7 +32,7 @@ app.controller("resumeCtrl", function($scope,$http)
 						flag = 0;
 						key = "";
 					}
-				}
+				} */
 				//console.log(index + ': ' + value);
 				
 			});
