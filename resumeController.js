@@ -7,7 +7,7 @@ app.controller("resumeCtrl", function($scope,$http)
 		var arrNavigate = ['Home','Objective','Education','Relevant Course Work','Professional Experience','Projects','Technical Skills']	
 			
 			// $scope.resumeVar = response.data;
-			var json_data = {}
+			var json_data = []
 			var lines = response.data;
 			$scope.line = lines.split("\n")
 			
@@ -18,8 +18,9 @@ app.controller("resumeCtrl", function($scope,$http)
 					json_data.push(index,value)
 				}
 				//console.log(index + ': ' + value);
-				console.log(json_data)
+				
 			});
+			console.log(json_data)
 ////////////////////////////////////
 			$scope.resumeVar = json_data
 		});
