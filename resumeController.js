@@ -9,8 +9,8 @@ app.controller("resumeCtrl", function($scope,$http)
 			// $scope.resumeVar = response.data;
 			var ans = {}
 			var lines = response.data;
-			$scope.line = lines
-			console.log(new JSONObject($scope.line))
+			$scope.line = lines.split(/\n/)
+			console.log($scope.line)
 			
 			/* for(var i = 1 ; i < lines.length;i++)
 			{
