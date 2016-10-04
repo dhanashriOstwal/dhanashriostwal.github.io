@@ -4,7 +4,7 @@ app.controller("resumeCtrl", function($scope,$http)
 	{
 		
 		$http.get("resume1.txt").then(function(response){
-		var arrNavigate = ['Home','Objective','Education','Relevant Course Work','Professional Experience','Projects','Technical Skills']	
+		var headings = ['Home','Objective','Education','Relevant Course Work','Professional Experience','Projects','Technical Skills']	
 			
 			// $scope.resumeVar = response.data;
 			var json_data = {}
@@ -16,13 +16,13 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			//console.log($scope.line)
 			angular.forEach($scope.line, function(value, index) {
-				if(index <= 4){
+				if(index < 4){
 					json_data[index] = value;
 				}
  				else{
-					
-					if(value === ""){
-						console.log(index)
+					var found = $.inArray(value, headings);
+					if(found >= 0){
+						json_data[value] = "some"
 					}
 				} 
 				//console.log(index + ': ' + value);
