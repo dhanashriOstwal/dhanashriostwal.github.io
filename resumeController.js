@@ -41,7 +41,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			});
 			console.log(JSON.stringify(json_data))
 ////////////////////////////////////
-			$scope.resumeVar = JSON.stringify(json_data)
+			$scope.resumeVar = angular.JSON(json_data)
 		});
 	}
 );
