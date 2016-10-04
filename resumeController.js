@@ -14,7 +14,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			for(var i = 1 ; i < lines.length;i++)
 			{
-				while(lines[i]!='\n')
+				while(lines[i]!=' ')
 					alert(lines[i])
 			}
 			for(var line = 0; line < lines.length; line++)
