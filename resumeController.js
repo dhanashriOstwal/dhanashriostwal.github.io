@@ -10,10 +10,10 @@ app.controller("resumeCtrl", function($scope,$http)
 			var ans = {}
 			var lines = response.data.split('\n');
 			$scope.line = lines
-			
+			alert(lines)
 			for(var line = 0; line < lines.length; line++)
 			{
-				alert(lines[0])
+				
 				/* while (lines[line] != '\n')
 				{
 					$scope.heading = 
