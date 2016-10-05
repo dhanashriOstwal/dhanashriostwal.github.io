@@ -56,6 +56,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.phone = $scope.resumeVar.phone;
 			$scope.address = $scope.resumeVar.address;
 			$scope.Objective = $scope.resumeVar.Objective;
+			$scope.Education = $scope.resumeVar.Education
 		});
 	}
 );
