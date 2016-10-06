@@ -59,6 +59,10 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			$scope.Education = $scope.resumeVar.Education;
 			
+			var ed1 = $scope.resumeVar.Education.split('-')
+			alert(ed1)
+			
+			
 			$scope.Experience = $scope.resumeVar.Experience;
 			$scope.CourseWork = $scope.resumeVar.CourseWork ;
 			$scope.ResearchProject = $scope.resumeVar.ResearchProject;
