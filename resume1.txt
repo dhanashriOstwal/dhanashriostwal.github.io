@@ -45,3 +45,9 @@ Data Mining - Spring 2016
 	-Classified data using kNN, centroid method and linear regression
 	-Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5-fold cross validation.
 	-Clustered using K-means
+
+TechnicalSkillset
+Programming Languages: 		Python, JAVA, AngularJS, NodeJS, AJAX, HTML, C, JSON, Javascript, MATLAB, Visual Basic
+Applications/Technologies: 	Eclipse, Netbeans, DBNet Suite, Agile Scrum Methodology
+Databases:					MySQL Server, MongoDB, SQL Server 2008 R2, Oracle 10g, MS-SQL Server, MS Access
+	
