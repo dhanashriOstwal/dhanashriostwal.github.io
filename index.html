@@ -100,8 +100,8 @@
 				<div class="interests-container container-block">
 					<h2 class="container-block-title">Interests</h2>
 					<ul class="list-unstyled interests-list">
-						<li><i class="fa fa-book"></i>Books</li>
-						 <li><i class="fa fa-coffee"></i>Coffee</li>
+						<li><i class="fa fa-book"></i>  Books</li>
+						 <li><i class="fa fa-coffee"></i>  Coffee</li>
 						<!--<li>Cooking</li> -->
 					</ul>
 				</div><!--//interests-->
@@ -122,13 +122,13 @@
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
 						<div ng-repeat="e in education" ng-init="parentIndex = $index">
- 							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
 									<h3 class="job-title">	 {{el}} </h3>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									<div class="details">	 {{el}}</div>
+									{{$index}}
 							</li>							
 							</ul>
 						</div>
