@@ -41,5 +41,5 @@ Data Mining|Spring 2016|Classified data using kNN, centroid method and linear re
 TechnicalSkillset
 Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
 Applications/Technologies|Eclipse|Netbeans|DBNet Suite|Agile Scrum Methodology
-Databases|MySQL Server|MongoDB|SQL Server 2008 R2|Oracle 10g|MS-SQL Server|MS Access
+Databases|MySQL Server|MongoDB|SQL Server 2008 R2|Oracle 10g|MS SQL Server|MS Access
 	
