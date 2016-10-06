@@ -48,7 +48,7 @@ app.controller("resumeCtrl", function($scope,$http)
 				//console.log(index + ': ' + value);
 				
 			});
-			//console.log(JSON.stringify(json_data))
+			console.log(JSON.stringify(json_data))
 ////////////////////////////////////
 			$scope.resumeVar = angular.fromJson(json_data);
 			$scope.name = $scope.resumeVar.name;
@@ -73,7 +73,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.TechnicalSkillset = $scope.resumeVar.TechnicalSkillset.split('-');
 			
 			$scope.mySplit = function(string) {
-				console.log(string);
+				//console.log(string);
 				var array = string.split('|');
 				$scope.educationDetails = array;
 				
