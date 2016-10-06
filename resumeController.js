@@ -74,7 +74,8 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			$scope.mySplit = function(string) {
 				var array = string.split(',');
-				return array;
+				$scope.educationDetails = array;
+				return educationDetails;
 			}
 			
 		});
