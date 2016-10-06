@@ -123,8 +123,10 @@
 						<!-- <p>{{Education}}</p> -->
 						<div ng-repeat="e in education" ng-init="parentIndex = $index">
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">
 									<h3 class="job-title">	 {{el}} </h3>
 									{{$index}}
+								</span>
 							</li>
 							<ul>
 								<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
