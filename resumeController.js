@@ -60,6 +60,8 @@ app.controller("resumeCtrl", function($scope,$http)
 			//$scope.Education = $scope.resumeVar.Education;
 			
 			$scope.education = $scope.resumeVar.Education.split('-')
+			$scope.educationSplit = $scope.education.split('\t')
+			alert($scope.educationSplit)
 			
 			
 			
