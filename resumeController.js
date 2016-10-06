@@ -66,7 +66,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			
 			
-			$scope.Experience = $scope.resumeVar.Experience;
+			$scope.Experience = $scope.resumeVar.Experience.split('-');
 			$scope.CourseWork = $scope.resumeVar.CourseWork ;
 			$scope.ResearchProject = $scope.resumeVar.ResearchProject;
 			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects;
