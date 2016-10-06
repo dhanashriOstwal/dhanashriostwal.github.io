@@ -122,7 +122,7 @@
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
 						<p ng-repeat="e in education">
-							<p ng-repeat="el in educationDetails">
+							<p ng-repeat="el in mySplit(e)">
 								{{el}}
 							</p>
 						</p>
