@@ -113,7 +113,7 @@
 				<section class="section summary-section">
 					<h2 class="section-title"><i class="fa fa-user"></i>Objective</h2>
 					<div class="summary">
-						<p>{{Objective}}</p>
+						{{Objective}}
 					</div><!--//summary-->
 				</section><!--//section-->
 				
@@ -124,11 +124,11 @@
 						<div ng-repeat="e in education" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<b> {{el}} </b>
+									<h3 class="job-title">	 {{el}} </h3>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									{{el}}
+									<div class="details">	 {{el}}</div>
 							</li>							
 							</ul>
 						</div>
