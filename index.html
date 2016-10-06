@@ -121,17 +121,17 @@
 					<h2 class="section-title"><i class="fa fa-user"></i>Education</h2>
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
-						<p ng-repeat="e in education" ng-init="parentIndex = $index">
+						<div ng-repeat="e in education" ng-init="parentIndex = $index">
  							
-							<p ng-repeat="el in mySplit(e)" ng-if="$index==0">
+							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
 									<b> {{el}} </b>
-							</p>
+							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									{{el}}
 							</li>							
 							</ul>
-						</p>
+						</div>
 					</div><!--//summary-->
 				</section><!--//section-->
 				
