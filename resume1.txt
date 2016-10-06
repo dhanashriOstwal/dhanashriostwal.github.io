@@ -34,9 +34,9 @@ Health Care Analysis|Analyzed the health related information and estimated the c
 AcademicProjects
 Data Structures and Algorithms|Fall 2015|Developed an android application to enable streaming of data using graph algorithms via multiple nodes
 Database Management|Fall 2015|Normalized a Movie dataset up to 2NF, BCNF but not in 3NF, 3NF which has to be in BCNF|Designed an ER and EER diagram for the dataset
-Web Data Management|Spring 2016|Implemented client-server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
-Computer Networks|Spring 2016|Implemented a multi-threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
-Data Mining|Spring 2016|Classified data using kNN, centroid method and linear regression|Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5-fold cross validation.|Clustered using K-means
+Web Data Management|Spring 2016|Implemented client server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
+Computer Networks|Spring 2016|Implemented a multi threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
+Data Mining|Spring 2016|Classified data using kNN, centroid method and linear regression|Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5 fold cross validation.|Clustered using Kmeans
 
 TechnicalSkillset
 Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
