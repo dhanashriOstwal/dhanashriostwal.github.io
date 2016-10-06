@@ -72,6 +72,11 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects;
 			$scope.TechnicalSkillset = $scope.resumeVar.TechnicalSkillset;
 			
+			$scope.mySplit = function(string) {
+				var array = string.split(',');
+				return array;
+			}
+			
 		});
 	}
 );
