@@ -264,14 +264,15 @@
 					<h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
 					<div class="skillset">  
 						<div ng-repeat="e in TechnicalSkillset" ng-init="parentIndex = $index">
- 							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+ 							<div class="item">
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
 								 <h3 class="level-title">{{el}} </h3>
 								 <div class="level-bar">
 									<div class="level-bar-inner" data-level="98%"></div>
 								</div>
 								<br>
-							</li>
+							</div>
+							</div>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									{{el}}
