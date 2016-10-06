@@ -139,13 +139,15 @@
 					<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 						<div ng-repeat="e in Experience" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<h3 class="job-title"> {{el}} </h3>
+							<h3 class="job-title"><li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+									 {{el}}
 							</li>
+							 </h3>
 							<ul>
-							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									<div class="time">{{el}}</div>
-							</li>							
+							<div class="details"><li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									{{el}}
+							</li>
+								</div>
 							</ul>
 						</div>
 					<!-- <div class="item">
