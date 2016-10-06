@@ -126,7 +126,6 @@
 								<span ng-if="!$last">  
 								<li>
 									<h3 class="job-title">	 {{el}} </h3>
-									 {{$index}} 
 								</li>
 								</span>
 							</div>
@@ -143,9 +142,13 @@
 					<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 						<div ng-repeat="e in Experience" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-								<h3 class="job-title">	 {{el}}</h3>
-							</li>
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">  
+									<li>
+										<h3 class="job-title">	 {{el}}</h3>
+									</li>
+								</span>
+							</div>
 							 
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
@@ -202,9 +205,13 @@
 					<h2 class="section-title"><i class="fa fa-quote-left"></i>Research Project</h2>
 						<div ng-repeat="e in ResearchProject" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<h3 class="job-title">{{el}} </h3>
-							</li>
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">  
+									<li>
+										<h3 class="job-title">{{el}} </h3>
+									</li>
+								</span>
+							</div>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									<div class="details">{{el}}</div>
@@ -238,9 +245,13 @@
 					<h2 class="section-title"><i class="fa fa-archive"></i>Academic Projects</h2>
 						<div ng-repeat="e in AcademicProjects" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<h3 class="job-title"> {{el}} </h3>
-							</li>
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">  
+									<li>
+										<h3 class="job-title"> {{el}} </h3>
+									</li>
+								</span>
+							</div>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									<div class="details">{{el}}</div>
@@ -253,9 +264,13 @@
 					<h2 class="section-title"><i class="fa fa-book"></i>Relevant Course Work</h2>
 						<div ng-repeat="e in CourseWork" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<div class="details"> {{el}} </div>
-							</li>
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">  
+									<li>
+										<div class="details"> {{el}} </div>
+									</li>
+								</span>
+							</div>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									<div class="details">{{el}}</div>
@@ -269,10 +284,13 @@
 					<div class="skillset">  
 						<div ng-repeat="e in TechnicalSkillset" ng-init="parentIndex = $index">
  							
-							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-								 <h3 class="job-title">{{el}} </h3>
-								
-							</li>
+							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+								<span ng-if="!$last">  
+									<li>
+										<h3 class="job-title">{{el}} </h3>
+									</li>
+								</span>
+							</div>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
 									<div class="details">{{el}} </div>
