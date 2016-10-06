@@ -121,7 +121,11 @@
 					<h2 class="section-title"><i class="fa fa-user"></i>Education</h2>
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
-						<p ng-repeat="x in education">{{x}}</p> 
+						<p ng-repeat="x in education">
+							<p ng-repeat = "i in x.split()">
+								{{i}}
+							</p>
+						</p>
 					</div><!--//summary-->
 				</section><!--//section-->
 				
