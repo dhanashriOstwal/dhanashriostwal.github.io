@@ -140,11 +140,11 @@
 						<div ng-repeat="e in Experience" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<b> {{el}} </b>
+									<h3 class="job-title"> {{el}} </h3>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									{{el}}
+									<div class="time">{{el}}</div>
 							</li>							
 							</ul>
 						</div>
