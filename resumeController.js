@@ -57,11 +57,11 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.address = $scope.resumeVar.address;
 			$scope.Objective = $scope.resumeVar.Objective;
 			
-			$scope.Education = $scope.resumeVar.Education;
+			//$scope.Education = $scope.resumeVar.Education;
 			
-			var ed1 = $scope.resumeVar.Education.split('-')
+			$scope.education = $scope.resumeVar.Education.split('-')
 			
-			alert(ed1[0])
+			
 			
 			
 			$scope.Experience = $scope.resumeVar.Experience;
