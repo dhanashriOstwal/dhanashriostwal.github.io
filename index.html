@@ -266,7 +266,10 @@
 						<div ng-repeat="e in TechnicalSkillset" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<div class="level-bar-inner" data-level="98%"> {{el}} </div>
+								 {{el}} 
+								 <div class="level-bar">
+									<div class="level-bar-inner" data-level="98%">
+								</div>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
