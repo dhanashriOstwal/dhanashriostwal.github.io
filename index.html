@@ -246,7 +246,7 @@
 				</section><!--//section-->
 				
 				<section class="section projects-section">
-					<h2 class="section-title"><i class="fa fa-blackboard"></i>Relevant Course Work</h2>
+					<h2 class="section-title"><i class="fa fa-book"></i>Relevant Course Work</h2>
 						<div ng-repeat="e in CourseWork" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
@@ -271,7 +271,7 @@
 							</li>
 							<div class="item">
 							<div ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									<div class="level-title">{{el}} </div>
+									<div class="details">{{el}} </div>
 									<div class="level-bar">
 									<div class="level-bar-inner" data-level="98%"></div>
 								</div>
