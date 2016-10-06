@@ -263,22 +263,23 @@
 				<section class="section projects-section">
 					<h2 class="section-title"><i class="fa fa-book"></i>Relevant Course Work</h2>
 						<div ng-repeat="e in CourseWork" ng-init="parentIndex = $index">
- 							
-							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
+ 							<span ng-if="!$last">
+									<li>
+										<div class="details"> {{el}} </div>
+									</li>
+								</span>
+							<!-- <div ng-repeat="el in mySplit(e)" ng-if="$index==0">
 								<span ng-if="!$last">
 									<li>
 										<div class="details"> {{el}} </div>
 									</li>
 								</span>
 							</div>
-							<!-- <ul>
-							<div ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-								<span ng-if="!$last">  
-									<li>
-										<div class="details">{{el}}</div>
-									</li>
-								</span>
-							</div>							
+							 <ul>
+								<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									<div class="details">{{el}}</div>
+								</li>
+														
 							</ul> -->
 						</div>
 				</section><!--//section-->
