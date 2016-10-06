@@ -265,11 +265,11 @@
 						<div ng-repeat="e in CourseWork" ng-init="parentIndex = $index">
  							
 							<div ng-repeat="el in mySplit(e)" ng-if="$index==0">
-								
+								<span ng-if="!$last">  
 									<li>
 										<div class="details"> {{el}} </div>
 									</li>
-								
+								</span>
 							</div>
 							<ul>
 							<div ng-repeat="el in mySplit(e)" ng-if="$index > 0">
