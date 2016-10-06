@@ -11,11 +11,21 @@ MS in Computer Science|GPA: 4.00|University of Texas, Arlington TX|Sep 2015 – 
 BE in Information Technology|First Class with Distinction|KJ’s Trinity College of Engineering & Research, Pune India|Sept 2009 – Jul 2013 	
 
 CourseWork
-Data Structures and Algorithms, Database Management, Web Data Management, Software Engineering, Data Mining, Computer Networks, Distributed Systems, Software Testing, Special Topics in Advanced Software Engineering, Data Science - A Programming Approach, Advanced Machine Learning  
+Data Structures and Algorithms
+Database Management
+Web Data Management
+Software Engineering
+Data Mining
+Computer Networks
+Distributed Systems
+Software Testing
+Special Topics in Advanced Software Engineering
+Data Science - A Programming Approach
+Advanced Machine Learning  
 
 Experience
 University of Texas, Arlington|Research Assistant|Sept 2016 – Present
-Developing a stand-alone software regarding lipid modification for the Chemistry Department
+Developing a standalone software regarding lipid modification for the Chemistry Department
 Company: Viva Green Homes|Volunteer Intern|May 2016 – Present
 Implementing a new data feed service that analyses all current homes for sale in the US and imports relevant data into Viva Green Homes.
 When a new property is saved, automatically set the appropriate LEED certified option if the property address is found in the LEED table.
@@ -30,24 +40,26 @@ Redesigned and restructured the process, contributing to a substantial improvisa
 	
 ResearchProject
 Health Care Analysis
-	-Analyzed the health related information and estimated the cost and the cost difference when certain operating procedures are selected
-	-Received recognition from Professor Zikos. Currently, in the process of publishing the work
+Analyzed the health related information and estimated the cost and the cost difference when certain operating procedures are selected
+Received recognition from Professor Zikos. Currently, in the process of publishing the work
 	
 AcademicProjects
-Data Structures and Algorithms - Fall 2015	Database Management - Fall 2015
-	-Developed an android application to enable streaming of data using graph algorithms via multiple nodes
-	-Normalized a Movie dataset up to 2NF, BCNF but not in 3NF, 3NF which has to be in BCNF 
-	-Designed an ER and EER diagram for the dataset
-Web Data Management - Spring 2016	Computer Networks - Spring 2016
-	-Implemented client-server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
-	-Implemented a multi-threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
-Data Mining - Spring 2016
-	-Classified data using kNN, centroid method and linear regression
-	-Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5-fold cross validation.
-	-Clustered using K-means
+Data Structures and Algorithms|Fall 2015	
+Developed an android application to enable streaming of data using graph algorithms via multiple nodes
+Database Management|Fall 2015
+Normalized a Movie dataset up to 2NF, BCNF but not in 3NF, 3NF which has to be in BCNF 
+Designed an ER and EER diagram for the dataset
+Web Data Management|Spring 2016
+Implemented client-server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
+Computer Networks|Spring 2016
+Implemented a multi-threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
+Data Mining|Spring 2016
+Classified data using kNN, centroid method and linear regression
+Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5-fold cross validation.
+Clustered using K-means
 
 TechnicalSkillset
-Programming Languages: 		Python, JAVA, AngularJS, NodeJS, AJAX, HTML, C, JSON, Javascript, MATLAB, Visual Basic
-Applications/Technologies: 	Eclipse, Netbeans, DBNet Suite, Agile Scrum Methodology
-Databases:					MySQL Server, MongoDB, SQL Server 2008 R2, Oracle 10g, MS-SQL Server, MS Access
+Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
+Applications/Technologies|Eclipse|Netbeans|DBNet Suite|Agile Scrum Methodology
+Databases|MySQL Server|MongoDB|SQL Server 2008 R2|Oracle 10g|MS-SQL Server|MS Access
 	

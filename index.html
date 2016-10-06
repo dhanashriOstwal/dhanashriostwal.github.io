@@ -137,7 +137,7 @@
 				
 				<section class="section experiences-section">
 					<h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-					<div ng-repeat="e in Experience" ng-init="parentIndex = $index">
+						<div ng-repeat="e in Experience" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
 									<b> {{el}} </b>
@@ -189,11 +189,22 @@
 						</div><!--//details
 					</div><!--//item
 					 -->
-					 {{Experience}}
+				
 				</section><!--//section-->
 				
 				<section class="section projects-section">
 					<h2 class="section-title"><i class="fa fa-archive"></i>Research Project</h2>
+						<div ng-repeat="e in ResearchProject" ng-init="parentIndex = $index">
+ 							
+							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+									<b> {{el}} </b>
+							</li>
+							<ul>
+							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									{{el}}
+							</li>							
+							</ul>
+						</div>
 					<!-- <div class="intro">
 						<p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
 					</div><!--//intro
@@ -214,23 +225,53 @@
 					<div class="item">
 						<span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
 					</div><!--//item -->
-					{{ResearchProject}}
+					
 				</section><!--//section-->
 				
 				<section class="section projects-section">
 					<h2 class="section-title"><i class="fa fa-archive"></i>Academic Projects</h2>
-					{{AcademicProjects}}
+						<div ng-repeat="e in AcademicProjects" ng-init="parentIndex = $index">
+ 							
+							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+									<b> {{el}} </b>
+							</li>
+							<ul>
+							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									{{el}}
+							</li>							
+							</ul>
+						</div>
 				</section><!--//section-->
 				
 				<section class="section projects-section">
 					<h2 class="section-title"><i class="fa fa-archive"></i>Relevant Course Work</h2>
-					{{CourseWork}}
+						<div ng-repeat="e in CourseWork" ng-init="parentIndex = $index">
+ 							
+							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+									<b> {{el}} </b>
+							</li>
+							<ul>
+							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									{{el}}
+							</li>							
+							</ul>
+						</div>
 				</section><!--//section-->
 				
 				<section class="skills-section section">
 					<h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
 					<div class="skillset">  
-						{{TechnicalSkillset}}
+						<div ng-repeat="e in TechnicalSkillset" ng-init="parentIndex = $index">
+ 							
+							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
+									<b> {{el}} </b>
+							</li>
+							<ul>
+							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
+									{{el}}
+							</li>							
+							</ul>
+						</div>
 					<!-- 	<div class="item">
 							<h3 class="level-title">Python &amp; Django</h3>
 							<div class="level-bar">

@@ -67,10 +67,10 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			
 			$scope.Experience = $scope.resumeVar.Experience.split('-');
-			$scope.CourseWork = $scope.resumeVar.CourseWork ;
-			$scope.ResearchProject = $scope.resumeVar.ResearchProject;
-			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects;
-			$scope.TechnicalSkillset = $scope.resumeVar.TechnicalSkillset;
+			$scope.CourseWork = $scope.resumeVar.CourseWork.split('-');
+			$scope.ResearchProject = $scope.resumeVar.ResearchProject.split('-');
+			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects.split('-');
+			$scope.TechnicalSkillset = $scope.resumeVar.TechnicalSkillset.split('-');
 			
 			$scope.mySplit = function(string) {
 				console.log(string);
