@@ -3,7 +3,7 @@ var app = angular.module("personalWebsite",[])
 app.controller("resumeCtrl", function($scope,$http)
 	{
 		
-		$http.get("resume.txt").then(function(response){
+		$http.get("resume1.txt").then(function(response){
 		var headings = ['Home','Objective','Education','Relevant Course Work','Professional Experience','Projects','Technical Skills']	
 			
 			// $scope.resumeVar = response.data;
