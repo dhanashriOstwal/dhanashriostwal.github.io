@@ -59,11 +59,11 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			//$scope.Education = $scope.resumeVar.Education;
 			
-			var education = $scope.resumeVar.Education.split('-')
+			$scope.education = $scope.resumeVar.Education.split('-')
 			var ed = []
 			for (var i = 0 ; i<education.length;i++)
 			{
-				ed[i] = education.split()
+				ed[i] = $scope.education.split('\t')
 				alert(ed[i])
 			}
 			
