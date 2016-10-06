@@ -4,7 +4,7 @@ app.controller("resumeCtrl", function($scope,$http)
 	{
 		
 		$http.get("resume1.txt").then(function(response){
-		var headings = ['Home','Objective','Education','Relevant Course Work','Experience','Projects','Technical Skills']	
+		var headings = ['Home','Objective','Education','CourseWork','Experience','ResearchProject','AcademicProjects','Technical Skills']	
 			
 			// $scope.resumeVar = response.data;
 			var json_data = {}
@@ -56,8 +56,13 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.phone = $scope.resumeVar.phone;
 			$scope.address = $scope.resumeVar.address;
 			$scope.Objective = $scope.resumeVar.Objective;
+			
 			$scope.Education = $scope.resumeVar.Education;
+			
 			$scope.Experience = $scope.resumeVar.Experience;
+			$scope.CourseWork = $scope.resumeVar.CourseWork ;
+			$scope.ResearchProject = $scope.resumeVar.ResearchProject;
+			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects;
 		});
 	}
 );

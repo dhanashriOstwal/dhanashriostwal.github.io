@@ -10,6 +10,9 @@ Education
 M.S. (Computer Science) from University of Texas at Arlington, Arlington TX  	(Sep 2015 – Present)	   	            GPA: 4.00
 B.E. (IT) from KJ’s Trinity College of Engineering & Research, Pune India    	(Sept 2009 – Jul 2013) 	First Class with Distinction
 
+CourseWork
+Data Structures and Algorithms, Database Management, Web Data Management, Software Engineering, Data Mining, Computer Networks, Distributed Systems, Software Testing, Special Topics in Advanced Software Engineering, Data Science - A Programming Approach, Advanced Machine Learning  
+
 Experience
 University of Texas, Arlington	Role: Research Assistant	(Sept 2016 – Present)
 	-Developing a stand-alone software regarding lipid modification for the Chemistry Department
@@ -24,3 +27,21 @@ Company: zCon Solutions Pvt. Ltd.	Role: Software Developer	(Sep 2013 – Jul 201
 	-Performed unit and integration testing
 	-Designed WCF Services and HOSTED on Windows Service
 	-Redesigned and restructured the process, contributing to a substantial improvisation of the application on functional level
+	
+ResearchProject
+Health Care Analysis
+	-Analyzed the health related information and estimated the cost and the cost difference when certain operating procedures are selected
+	-Received recognition from Professor Zikos. Currently, in the process of publishing the work
+	
+AcademicProjects
+Data Structures and Algorithms - Fall 2015	Database Management - Fall 2015
+	-Developed an android application to enable streaming of data using graph algorithms via multiple nodes
+	-Normalized a Movie dataset up to 2NF, BCNF but not in 3NF, 3NF which has to be in BCNF 
+	-Designed an ER and EER diagram for the dataset
+Web Data Management - Spring 2016	Computer Networks - Spring 2016
+	-Implemented client-server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
+	-Implemented a multi-threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
+Data Mining - Spring 2016
+	-Classified data using kNN, centroid method and linear regression
+	-Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5-fold cross validation.
+	-Clustered using K-means
