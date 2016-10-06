@@ -14,19 +14,19 @@ CourseWork
 Data Structures and Algorithms, Database Management, Web Data Management, Software Engineering, Data Mining, Computer Networks, Distributed Systems, Software Testing, Special Topics in Advanced Software Engineering, Data Science - A Programming Approach, Advanced Machine Learning  
 
 Experience
-University of Texas, Arlington|Role: Research Assistant|Sept 2016 – Present
-	-Developing a stand-alone software regarding lipid modification for the Chemistry Department
-Company: Viva Green Homes|Role: Volunteer Intern|May 2016 – Present
-	-Implementing a new data feed service that analyses all current homes for sale in the US and imports relevant data into Viva Green Homes.
-	-When a new property is saved, automatically set the appropriate LEED certified option if the property address is found in the LEED table.
-	-Import LEED certification data into a new table in the database.	
-Company: zCon Solutions Pvt. Ltd.|Role: Software Developer|Sep 2013 – Jul 2014
-	-Designed a middleware to connect legacy COBOL system to new SQL server using C#
-	-Designed and implemented web user interface and MySQL database
-	-Converted legacy COBOL code to TSQL code
-	-Performed unit and integration testing
-	-Designed WCF Services and HOSTED on Windows Service
-	-Redesigned and restructured the process, contributing to a substantial improvisation of the application on functional level
+University of Texas, Arlington|Research Assistant|Sept 2016 – Present
+Developing a stand-alone software regarding lipid modification for the Chemistry Department
+Company: Viva Green Homes|Volunteer Intern|May 2016 – Present
+Implementing a new data feed service that analyses all current homes for sale in the US and imports relevant data into Viva Green Homes.
+When a new property is saved, automatically set the appropriate LEED certified option if the property address is found in the LEED table.
+Import LEED certification data into a new table in the database.	
+Company: zCon Solutions Pvt. Ltd.|Software Developer|Sep 2013 – Jul 2014
+Designed a middleware to connect legacy COBOL system to new SQL server using C#
+Designed and implemented web user interface and MySQL database
+Converted legacy COBOL code to TSQL code
+Performed unit and integration testing
+Designed WCF Services and HOSTED on Windows Service
+Redesigned and restructured the process, contributing to a substantial improvisation of the application on functional level
 	
 ResearchProject
 Health Care Analysis
