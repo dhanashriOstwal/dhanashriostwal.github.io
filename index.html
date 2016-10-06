@@ -13,7 +13,7 @@
 		<link rel="shortcut icon" href="favicon.ico"> 
 		<script src = "resumeController.js"></script>
 		<link rel = "stylesheet" type="text/css" href="/css/main.css">
-		
+		<script type="text/javascript"></script>
 		
 	</head>
 	<body>
@@ -122,10 +122,15 @@
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
 						<li ng-repeat="e in education" ng-init="parentIndex = $index">
-						{{e}}
  							<ul>
 							<li ng-repeat="el in mySplit(e)">
-								{{el}}
+								if($index == 0){
+									<b> {{el}} </b>
+								}
+								else{
+									{{el}}
+								}
+								
 							</li>
 							</ul>
 						</li>

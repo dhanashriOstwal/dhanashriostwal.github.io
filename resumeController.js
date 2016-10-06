@@ -74,7 +74,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			
 			$scope.mySplit = function(string) {
 				console.log(string);
-				var array = string.split(',');
+				var array = string.split('|');
 				$scope.educationDetails = array;
 				
 				return $scope.educationDetails;
