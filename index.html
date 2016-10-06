@@ -100,9 +100,9 @@
 				<div class="interests-container container-block">
 					<h2 class="container-block-title">Interests</h2>
 					<ul class="list-unstyled interests-list">
-						<li>Reading</li>
-						<!-- <li>Snowboarding</li>
-						<li>Cooking</li> -->
+						<li>Books</li>
+						 <li>Coffee</li>
+						<!--<li>Cooking</li> -->
 					</ul>
 				</div><!--//interests-->
 				
@@ -199,11 +199,11 @@
 						<div ng-repeat="e in ResearchProject" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<b> {{el}} </b>
+									<h3 class="job-title">{{el}} </h3>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									{{el}}
+									<div class="details">{{el}}</div>
 							</li>							
 							</ul>
 						</div>
@@ -235,11 +235,11 @@
 						<div ng-repeat="e in AcademicProjects" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-									<b> {{el}} </b>
+									<h3 class="job-title"> {{el}} </h3>
 							</li>
 							<ul>
 							<li ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									{{el}}
+									<div class="details">{{el}}</div>
 							</li>							
 							</ul>
 						</div>
@@ -266,12 +266,12 @@
 						<div ng-repeat="e in TechnicalSkillset" ng-init="parentIndex = $index">
  							
 							<li ng-repeat="el in mySplit(e)" ng-if="$index==0">
-								 <h3 class="level-title">{{el}} </h3>
+								 <h3 class="job-title">{{el}} </h3>
 								
 							</li>
 							<div class="item">
 							<div ng-repeat="el in mySplit(e)" ng-if="$index > 0">
-									<h3 class="level-title">{{el}} </h3>
+									<div class="level-title">{{el}} </div>
 									<div class="level-bar">
 									<div class="level-bar-inner" data-level="98%">
 								</div>
