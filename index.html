@@ -121,10 +121,10 @@
 					<h2 class="section-title"><i class="fa fa-user"></i>Education</h2>
 					<div class="summary">
 						<!-- <p>{{Education}}</p> -->
-						<p ng-repeat="x in education">
-							
-								{{mySplit(x)}}
-							
+						<p ng-repeat="e in education">
+							<p ng-repeat="el in mySplit(x)">
+								{{el}}
+							</p>
 						</p>
 					</div><!--//summary-->
 				</section><!--//section-->
