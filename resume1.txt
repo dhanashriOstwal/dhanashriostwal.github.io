@@ -20,7 +20,7 @@ Computer Networks
 Distributed Systems
 Software Testing
 Special Topics in Advanced Software Engineering
-Data Science - A Programming Approach
+Data Science, A Programming Approach
 Advanced Machine Learning  
 
 Experience
