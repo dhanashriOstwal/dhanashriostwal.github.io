@@ -253,6 +253,43 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+.snote{
+	*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background:#666;
+  color:#fff;
+}
+h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+ul{
+  overflow:hidden;
+  padding:3em;
+}
+ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+}
+ul li{
+  margin:1em;
+  float:left;
+}
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -290,39 +327,3 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-*{
-  margin:0;
-  padding:0;
-}
-body{
-  font-family:arial,sans-serif;
-  font-size:100%;
-  margin:3em;
-  background:#666;
-  color:#fff;
-}
-h2,p{
-  font-size:100%;
-  font-weight:normal;
-}
-ul,li{
-  list-style:none;
-}
-ul{
-  overflow:hidden;
-  padding:3em;
-}
-ul li a{
-  text-decoration:none;
-  color:#000;
-  background:#ffc;
-  display:block;
-  height:10em;
-  width:10em;
-  padding:1em;
-}
-ul li{
-  margin:1em;
-  float:left;
-}
