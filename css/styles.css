@@ -50,6 +50,14 @@ p {
   min-height: 800px;
   color: #fff;
 }
+.note-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 1000px;
+  height: 10%;
+  color: #fff;
+}
 .sidebar-wrapper a {
   color: #fff;
 }
