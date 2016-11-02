@@ -29,7 +29,7 @@ Company: Viva Green Homes|Volunteer Intern|May 2016 – August 2016|Implementing
 Company: zCon Solutions Pvt. Ltd.|Software Developer|Sep 2013 – Jul 2014|Project 1|Designed a middleware to connect legacy COBOL system to new SQL server using C#|Converted legacy COBOL code to TSQL code|Designed WCF Services and HOSTED on Windows Service|Project 2|Designed and implemented web user interface using Javascript, CSS, HTML, MySQL database etc.|Performed unit and integration testing|Redesigned and restructured the process, contributing to a substantial improvisation of the application on functional level
 	
 ResearchProject
-Health Care Analysis|Analyzed the health related information and estimated the cost and the cost difference when certain operating procedures are selected|Received recognition from Professor Zikos.|Published the paper: A Platform based on Multiple Regression to Estimate the Effect of in Hospital Events on Total Charges
+Health Care Analysis|Analyzed the health related information and estimated the cost and the cost difference when certain operating procedures are selected|Received recognition from Professor Zikos.|Published the paper: A Platform based on Multiple Regression to Estimate the Effect of in – Hospital Events on Total Charges
 	
 AcademicProjects
 Data Structures and Algorithms|Fall 2015|Developed an android application to enable streaming of data using graph algorithms via multiple nodes
