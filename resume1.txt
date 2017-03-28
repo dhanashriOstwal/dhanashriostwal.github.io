@@ -8,7 +8,7 @@ Looking for a Software Developer position with the company where I may be able t
 
 Education
 MS in Computer Science|GPA: 4.00|University of Texas, Arlington TX|Sep 2015 – Present	   	            
-BE in Information Technology|First Class with Distinction|KJ’s Trinity College of Engineering & Research, Pune India|Sept 2009 – Jul 2013 	
+BE in Information Technology|First Class with Distinction|University of Pune, Pune India|Sept 2009 – Jul 2013 	
 
 CourseWork
 Data Structures and Algorithms
@@ -37,6 +37,14 @@ Database Management|Fall 2015|Normalized a Movie dataset up to 2NF, BCNF but not
 Web Data Management|Spring 2016|Implemented client server components of a web application using technologies and languages like NodeJS, AngularJS, MongoDB (NoSQL), RESTful API, Google Maps, Google Charts,d3js, Github and Heroku server
 Computer Networks|Spring 2016|Implemented a multi threaded web proxy server that is capable of processing multiple simultaneous service requests in parallel
 Data Mining|Spring 2016|Classified data using kNN, centroid method and linear regression|Split the given data into testing and training and ran kNN, centroid method and linear regression. Ran SVM using linear and Gaussian kernels. Did a 5 fold cross validation.|Clustered using Kmeans
+Machine Learning|Fall 2016|E-mail Spam Classification Using Naïve Bayesian Classifier and SVM
+Data Science A Programming Approach|Fall 2016|Post Election Social Media Analytics|Implemented tweet extraction, sentiment analysis, word cloud creation, topic modeling of tweets using Python|Pokemon Go! Analytics|Implemented web scraping, visualization of numeric data, simple prediction using Python|Mood Based Music Playlist|Implemented model building for classification, visualization of confidence level, song recommendation using Python
+
+OtherFunProjects
+Node Blog|
+Open Forum|
+Github Search|
+Spotify Search
 
 TechnicalSkillset
 Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
