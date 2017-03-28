@@ -4,7 +4,7 @@ app.controller("resumeCtrl", function($scope,$http)
 	{
 		
 		$http.get("resume1.txt").then(function(response){
-		var headings = ['Home','Objective','Education','CourseWork','Experience','ResearchProject','AcademicProjects','TechnicalSkillset']	
+		var headings = ['Home','Objective','Education','CourseWork','Experience','ResearchProject','AcademicProjects','SideProjects','TechnicalSkillset']	
 			
 			// $scope.resumeVar = response.data;
 			var json_data = {}
@@ -70,6 +70,7 @@ app.controller("resumeCtrl", function($scope,$http)
 			$scope.CourseWork = $scope.resumeVar.CourseWork.split('-');
 			$scope.ResearchProject = $scope.resumeVar.ResearchProject.split('-');
 			$scope.AcademicProjects = $scope.resumeVar.AcademicProjects.split('-');
+			$scope.SideProjects = $scope.resumeVar.SideProjects.split('-');
 			$scope.TechnicalSkillset = $scope.resumeVar.TechnicalSkillset.split('-');
 			
 			$scope.mySplit = function(string) {
