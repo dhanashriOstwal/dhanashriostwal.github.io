@@ -40,8 +40,12 @@ Data Mining|Spring 2016|Classified data using kNN, centroid method and linear re
 Machine Learning|Fall 2016| Email Spam Classification Using Naïve Bayesian Classifier and SVM
 Data Science A Programming Approach|Fall 2016|Post Election Social Media Analytics: Implemented tweet extraction, sentiment analysis, word cloud creation, topic modeling of tweets using Python|Pokemon Go! Analytics: Implemented web scraping, visualization of numeric data, simple prediction using Python|Mood Based Music Playlist: Implemented model building for classification, visualization of confidence level, song recommendation using Python
 
-OtherFunProjects
-IBM Bluemix Project|Built a flickr web app that fetches images from NASA's account via the Flickr API|Used technologies likes Javascript, AngularJS, NodeJS, IBM Bluemix, Bootstrap, RESTful API and Github|Node Blog|Open Forum|Github Search|Spotify Search
+SideProjects
+IBM Bluemix Project|Built a flickr web app that fetches images from NASA's account via the Flickr API|Used technologies likes Javascript, AngularJS, NodeJS, IBM Bluemix, Bootstrap, RESTful API and Github
+Node Blog
+Open Forum
+Github Search
+Spotify Search
 
 TechnicalSkillset
 Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
