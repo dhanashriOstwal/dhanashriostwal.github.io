@@ -41,11 +41,11 @@ Machine Learning|Fall 2016| Email Spam Classification Using Naïve Bayesian Cla
 Data Science A Programming Approach|Fall 2016|Post Election Social Media Analytics: Implemented tweet extraction, sentiment analysis, word cloud creation, topic modeling of tweets using Python|Pokemon Go! Analytics: Implemented web scraping, visualization of numeric data, simple prediction using Python|Mood Based Music Playlist: Implemented model building for classification, visualization of confidence level, song recommendation using Python
 
 SideProjects
-IBM Bluemix Project|Built a flickr web app that fetches images from NASA's account via the Flickr API|Used technologies likes Javascript, AngularJS, NodeJS, IBM Bluemix, Bootstrap, RESTful API and Github
-Node Blog
-Open Forum
-Github Search
-Spotify Search
+IBM Bluemix Project|Built a flickr web app that fetches images from NASA's account via the Flickr API|Used technologies like Javascript, AngularJS, NodeJS, IBM Bluemix, Bootstrap, RESTful API and Github
+Blog System|Built a blog app that lets us add blogs, update/edit, delete them, sort them according to their category, add a category etc.|Used technologies like NodeJS, NPM, Express framework, BCrypt Encryption, Passport User Authentication, HTTP/REST, Multer file uploading, Bootstrap, MongoDB  
+Open Forum|Built a community events app that lets a person add events, delete and manage their events the way they like|This app also has an Admin rights page that lets admin add, delete and manage users|Technologies used are NodeJS, NPM, Express framework, BCrypt Encryption, Passport User Authentication, HTTP/REST, Drywall User Management, Multer file uploading, Bootstrap, Mongoose, Monk
+Github Profile Searcher|Built an app that searches the profile of any github user. On keyup, users start to show up in the search with all the relevant details regarding their profile, repositories, gists, followers, following etc.|Built this app using Angular 2, Jacascript, HTTP, Github API and a little bit of Bootstrap
+Spotify Search|This is an Artist/Album application using Spotify API|Using this app, a person can search an artist and this pulls up all the albums of that artist, details of the album, genres, preview of a song|Used technologies like Angular 2, Javascript, HTTP, Spotify API, Bootstrap, Github
 
 TechnicalSkillset
 Programming Languages|Python|JAVA|AngularJS|NodeJS|AJAX|HTML|C|JSON|Javascript|MATLAB|Visual Basic
